@@ -1,0 +1,7 @@
+{
+  "name": "ZiaMet - NMSU Weather Network - Test",
+  "description": "A high-performance, clean weather monitoring dashboard for New Mexico State University's weather station network.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
