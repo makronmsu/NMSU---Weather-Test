@@ -172,12 +172,12 @@ const App: React.FC = () => {
               
               {/* Hero Dashboard Section */}
               <section className="relative overflow-hidden rounded-3xl bg-slate-900 shadow-2xl min-h-[400px] flex flex-col md:flex-row border border-white/5">
-                {/* Visual Background - Hand-drawn style reference */}
+                {/* Visual Background - Updated to NMSU Drone Image */}
                 <div className="absolute inset-0 z-0">
                   <img 
-                    src={`https://picsum.photos/seed/${selectedStation.id}/1200/800`} 
-                    className="w-full h-full object-cover opacity-40 mix-blend-overlay scale-110" 
-                    alt="Campus View" 
+                    src="https://cdn.photoshelter.com/img-get/I0000sH5ptpnBBo4/s/1200/I0000sH5ptpnBBo4.jpg" 
+                    className="w-full h-full object-cover opacity-60 mix-blend-overlay scale-110" 
+                    alt="NMSU Campus Aerial View" 
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent" />
                   <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-transparent to-transparent hidden md:block" />
@@ -244,9 +244,9 @@ const App: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Attribution - as requested in mockup */}
+                {/* Attribution - Updated to NMSU Photography */}
                 <div className="absolute bottom-4 right-6 text-[10px] text-white/40 font-medium">
-                  ZiaMet Network / Getty Images
+                  ZiaMet Network / NMSU Photography
                 </div>
               </section>
 
